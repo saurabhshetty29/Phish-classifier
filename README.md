@@ -256,3 +256,7 @@ pipeline = PhishingClassificationPipeline()
 pipeline.run_full_pipeline()
 "
 ```
+### Dashboard View
+<img width="1416" height="451" alt="screen1" src="https://github.com/user-attachments/assets/c16d114d-af74-4fd0-81a7-1400cb9be45e" />
+<img width="1352" height="730" alt="Screen-2" src="https://github.com/user-attachments/assets/6544dbcd-3f0a-4168-a75d-2e25ea28c0a7" />
+<img width="1371" height="796" alt="Screen-3" src="https://github.com/user-attachments/assets/cd7fbaab-73e1-4447-8c39-8ad5933ce2b4" />
