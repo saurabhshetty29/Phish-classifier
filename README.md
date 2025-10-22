@@ -256,25 +256,3 @@ pipeline = PhishingClassificationPipeline()
 pipeline.run_full_pipeline()
 "
 ```
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new functionality
-4. Submit a pull request
-
-## 📚 References
-
-- [Email Security Best Practices](https://tools.ietf.org/html/rfc7489)
-- [Phishing Detection Techniques](https://www.usenix.org/conference/usenixsecurity20)
-- [Sentence Transformers](https://www.sbert.net/)
-- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
-
----
-
-**Built with ❤️ for email security and cost-effective phishing detection.**
