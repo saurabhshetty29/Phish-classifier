@@ -1,0 +1,88 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+*.virtualenv
+
+# Raw Email Data - SENSITIVE & LARGE (6,059 files)
+data/raw_eml/*.eml
+data/**/*.eml
+
+# Generated Outputs - CONTAINS API KEYS FROM PHISHING EMAILS
+# These files are large (30+ MB) and contain sensitive data
+outputs/*.jsonl
+outputs/*.json
+outputs/*.txt
+
+# Trained Models - CAN BE REGENERATED with --train flag
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.model
+
+# Cache Database - USER SPECIFIC (regenerated on use)
+cache/*.db
+cache/*.db-journal
+cache/*.sqlite
+cache/*.sqlite3
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment & Secrets - CRITICAL SECURITY
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+config.json
+secrets.json
+openai_key.txt
+api_keys.txt
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+
+# Documentation builds
+docs/_build/
+site/
+
